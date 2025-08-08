@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "title": "Fine-Tuning FinBERT for Financial Sentiment Classification",
+    "course": "AAI-511 - Neural Networks and Deep Learning",
+    "authors": [
+      "Iman Hamdan",
+      "Matt Hashemi"
+    ],
+    "institution": "University of San Diego",
+    "date": "2025-08-07"
+  },
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 0.25357873210633947,
+      "f1": 0.1640942291049078
+    },
+    "Random Forest": {
+      "accuracy": 0.26380368098159507,
+      "f1": 0.21630128271196442
+    },
+    "FinBERT": {
+      "accuracy": 1.0,
+      "f1": 1.0
+    }
+  },
+  "best_model": {
+    "name": "FinBERT",
+    "accuracy": 1.0,
+    "improvement": 0.6666666666666667
+  }
+}
